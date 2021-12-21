@@ -10,12 +10,12 @@
   /*宇都宮記載*/
 
   .navbar{
-    background-color: #24507f;
+    background-color:#142656;
     padding:0 120px;
   }
 
   .facebook-botton{
-    background-color: #24507f;
+    background-color: #142656;
     color:white;
     opacity: 0.9;
   }
@@ -51,12 +51,14 @@
     
   }
 
-  .overview{
-    background-color: #24507f;
-    width:100%;
-    height:auto;
+  .overview-wrap{
     margin-top: 30px;
-    padding: 20px;
+  }
+
+  .overview{
+    background-color: #142656;
+    height:auto;
+    padding: 15px;
   }
 
   .overview > h3{
@@ -140,12 +142,16 @@
     margin-top: 30px;
   }
 
+  .update-information-h3 > a{
+    color: #142656;
+  }
+
   .s-title {
     position: relative;
     margin: 30px 0;
     padding-bottom: 6px;
-    border-bottom: 1px solid #24507f;
-    color: #24507f;
+    border-bottom: 1px solid #142656;
+    color: #142656;
     font-weight: 600;
     font-size: 30px;
     font-family: "YuMincho", "Yu Mincho Medium", "Yu Mincho", yu-mincho-pr6, Verdana, Meiryo, sans-serif;
@@ -158,7 +164,7 @@
     left: 0;
     width: 300px;
     height: 6px;
-    background-color: #24507f;
+    background-color: #142656;
     content: "";
   }
 
@@ -172,7 +178,7 @@
     left: 0;
     width: 157px;
     height: 6px;
-    background-color: #24507f;
+    background-color: #142656;
     content: "";
   }
 
@@ -189,13 +195,11 @@
     display: none;
   }
   
-  
-
   footer {
     height: auto;
     margin: 0 auto;
     padding: 30px 70px 30px 50px;
-    background-color: #24507f;
+    background-color: #142656;
     
   }
   
@@ -205,6 +209,8 @@
     .navbar{
       padding: 0;
     }
+
+    
   }
 
 
@@ -213,7 +219,39 @@
     width: 250px;
     height: 250px;
   }
+
+  .overview-img{
+    width: 320px;
+    height: 320px;
+  }
   
+  .organization-table{
+    width: 1100px;
+    height:100%;
+    
+  }
+
+  .lecture-img{
+    width: 500px;
+    height: 500px;
+  }
+
+  .card{
+    height: 600px;
+  }
+
+  .card-writings{
+    height: 200px;
+  }
+
+  .research-activities{
+    background-color:#142656;
+    color:white;
+  }
+
+  .event-img{
+    width: 400px;
+    height: 400px;
+  }
+
   /*宇都宮記載*/
-  
-  
