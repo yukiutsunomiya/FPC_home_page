@@ -244,6 +244,13 @@
     height: 200px;
   }
 
+  .commentary-card{
+    height: 550px;
+  }
+  .commentary-card-body{
+    height: 115px;
+  }
+
   .research-activities{
     background-color:#142656;
     color:white;
@@ -253,5 +260,35 @@
     width: 400px;
     height: 400px;
   }
+
+  /*------------------------------------------------------------*/
+/* 実行などボタン周り */
+/*------------------------------------------------------------*/
+.regist_button{
+  margin: 1.5em 0 0 0;
+  padding: 2em;
+  border: 1px solid #90847b;
+  background-color: #edebe3;
+  text-align: center;
+}
+
+/*------------------------------------------------------------*/
+/* フォームラベル */
+/*------------------------------------------------------------*/
+section.container label.head{
+  margin-top: 1em;
+  padding: 0.8em 0;
+  border-left: 5px solid #3399ff;
+  background-color: #e8f5ff;
+  text-align: left;
+  font-size: 90%;
+  font-weight: normal;
+}
+
+fieldset{
+  width: 500px;
+}
+
+
 
   /*宇都宮記載*/
