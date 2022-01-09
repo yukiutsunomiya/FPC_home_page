@@ -289,6 +289,15 @@ fieldset{
   width: 500px;
 }
 
+.director-card{
+  height: 470px;
+}
 
+a{
+  text-decoration: none;
+  color: black;
+}
 
-  /*宇都宮記載*/
+a:hover{
+  opacity: 0.8;
+}
